@@ -8,6 +8,25 @@ Latest: v2.0.0
 The image builder for `openbsd`
 
 
+All the supported releases are here:
+
+
+
+| Release | x86_64  | aarch64(arm64) | riscv64 |
+|---------|---------|---------|----------------|
+| 7.8     |  ✅     |   ✅   |           ✅  |
+| 7.7     |  ✅     |   ✅   |           ✅  |
+| 7.6     |  ✅     |   ✅   |           ❌  |
+| 7.5     |  ✅     |   ✅   |           ❌  |
+| 7.4     |  ✅     |   ✅   |           ❌  |
+| 7.3     |  ✅     |   ✅   |           ❌  |
+
+
+
+
+
+
+
 How to use:
 
 1. Use the [manual.yml](.github/workflows/manual.yml) to build manually.
